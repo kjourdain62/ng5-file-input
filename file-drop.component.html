@@ -1,0 +1,7 @@
+<div class="row">
+  <div class="col">
+    <div class="form-group input" >
+      <input type="file" (drop)="readUrl($event)" [title]="this.title" (change)="readUrl($event)" class="form-control-file text-primary font-weight-bold" id="inputFile" [ngClass]="{'text-danger':this._filesRejected.length>0}"  >
+    </div>
+  </div>
+</div>
