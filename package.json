@@ -1,6 +1,6 @@
 {
-  "name": "ng5-file-drop",
-  "version": "0.0.1",
+  "name": "ng5-file-input",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "transpile": "ngc",
